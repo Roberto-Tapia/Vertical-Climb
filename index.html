@@ -4,13 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <style>
-        @font-face {
+        /* @font-face {
             font-family: Fivo;
             src: url(FivoSansModern-Regular.otf);
-        }
+        } */
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+    </style>
+    <style>
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-color: cadetblue; */
+    height: 100vh;
+    /* font-family: Fivo; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.content {
+    margin:  15vw 15vw 0 15vw;
+}
+
+.content * {
+    font-size: .75rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: red; */
+    height: 100vh;
+}
+
+#logo {
+    width: 100px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.myButton {
+    display: flex;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    align-self: center; 
+    /* background-color: white; */
+    /* padding: 10vh 5vw; */
+    height: 15vh;
+    width: 90vw; 
+    margin:  15vw 15vw 0 15vw;
+    font-size: .75rem;
+    /* position: absolute;
+    bottom: 0; */
+    /* width: 80vw;  */
+}
+
     </style>
     <title>Document</title>
 </head>
@@ -33,17 +121,10 @@
 
         <div class="socials">
             <span>Compartenos tu experiencia en</span>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="https://instagram.com/verticalclimbfitness?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
             <span>|</span>
-            <i class="fa-brands fa-facebook-f"></i>
+            <a href="https://www.facebook.com/verticalclimbfitness?mibextid=LQQJ4d"><i class="fa-brands fa-facebook-f"></i></a>
         </div>
-
-        <!-- <div class="appstore">
-            <span>Compartenos tu experiencia en</span>
-            <i class="fa-brands fa-instagram"></i>
-            <span>|</span>
-            <i class="fa-brands fa-facebook-f"></i>
-        </div> -->
 
     </main>
 

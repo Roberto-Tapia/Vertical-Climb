@@ -3,7 +3,8 @@ body {
     flex-direction: column;
     /* background-color: cadetblue; */
     height: 100vh;
-    font-family: Fivo;
+    /* font-family: Fivo; */
+    font-family: 'Work Sans', sans-serif;
 }
 
 .content {
